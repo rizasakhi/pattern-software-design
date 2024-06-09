@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="NavBar.master.cs" Inherits="Tugas_LAB_PSD.Master.NavBar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:Button ID="toRegisterBtn" runat="server" Text="Register" OnClick="toRegisterBtn_Click"/>
+            <asp:Button ID="toLoginBtn" runat="server" Text="Login" OnClick="toLoginBtn_Click"/>
+
+            <asp:Button ID="toOrderBtn" runat="server" Text="Order Supplement" OnClick="toOrderBtn_Click"/>
+            <asp:Button ID="toHistoryBtn" runat="server" Text="History" OnClick="toHistoryBtn_Click"/>
+
+            <asp:Button ID="toHomeBtn" runat="server" Text="Home" OnClick="toHomeBtn_Click"/>
+            <asp:Button ID="toManageBtn" runat="server" Text="Manage Supplement" OnClick="toManageBtn_Click"/>
+            <asp:Button ID="toOrderQueueBtn" runat="server" Text="Order Queue" OnClick="toOrderQueueBtn_Click"/>
+            <asp:Button ID="toReportBtn" runat="server" Text="Transaction Report" OnClick="toReportBtn_Click"/>
+
+            <asp:Button ID="toProfileBtn" runat="server" Text="Profile" OnClick="toProfileBtn_Click"/>
+            <asp:Button ID="toLogoutBtn" runat="server" Text="Logout" OnClick="toLogoutBtn_Click"/>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

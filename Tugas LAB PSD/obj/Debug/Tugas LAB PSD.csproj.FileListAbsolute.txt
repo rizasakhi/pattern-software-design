@@ -1,0 +1,126 @@
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\obj\Debug\Tugas LAB PSD.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\obj\Debug\Tugas LAB PSD.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\Tugas LAB PSD.dll.config
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\Tugas LAB PSD.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\Tugas LAB PSD.pdb
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\csc.exe
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\csc.exe.config
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\csc.rsp
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\csi.exe
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\csi.exe.config
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\csi.rsp
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.AppContext.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Console.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Net.Http.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Net.Sockets.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\vbc.exe
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\vbc.exe.config
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\vbc.rsp
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\EntityFramework.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\EntityFramework.xml
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\obj\Debug\Tugas LA.44ECA0C0.Up2Date
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\obj\Debug\Tugas LAB PSD.dll
+C:\Users\User\Downloads\Semester 4\Pattern Software Design LAB\Tugas LAB PSD\Tugas LAB PSD\obj\Debug\Tugas LAB PSD.pdb
+D:\Tugas LAB PSD\Tugas LAB PSD\obj\Debug\Tugas LAB PSD.csproj.AssemblyReference.cache
+D:\Tugas LAB PSD\Tugas LAB PSD\obj\Debug\Tugas LAB PSD.csproj.CoreCompileInputs.cache
+D:\Tugas LAB PSD\Tugas LAB PSD\obj\Debug\Tugas LAB PSD.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\obj\Debug\Tugas LAB PSD.pdb
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\Tugas LAB PSD.dll.config
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\Tugas LAB PSD.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\Tugas LAB PSD.pdb
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\csc.exe
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\csc.exe.config
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\csc.rsp
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\csi.exe
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\csi.exe.config
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\csi.rsp
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.AppContext.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Collections.Immutable.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Console.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Globalization.Calendars.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.IO.Compression.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.IO.FileSystem.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Net.Http.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Net.Sockets.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Reflection.Metadata.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.ValueTuple.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Xml.XPath.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\vbc.exe
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\vbc.exe.config
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\vbc.rsp
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\VBCSCompiler.exe
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\roslyn\VBCSCompiler.exe.config
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\EntityFramework.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\EntityFramework.SqlServer.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\EntityFramework.xml
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\EntityFramework.SqlServer.xml
+D:\Tugas LAB PSD\Tugas LAB PSD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Tugas LAB PSD\Tugas LAB PSD\obj\Debug\Tugas LA.44ECA0C0.Up2Date

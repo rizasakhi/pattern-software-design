@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Database1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MsCarts">
+    <Key>
+      <PropertyRef Name="CartID" />
+    </Key>
+    <Property Name="CartID" Type="int" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="SupplementID" Type="int" Nullable="false" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MsSupplements">
+    <Key>
+      <PropertyRef Name="SupplementID" />
+    </Key>
+    <Property Name="SupplementID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SupplementName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="SupplementExpiryDate" Type="date" Nullable="false" />
+    <Property Name="SupplementPrice" Type="int" Nullable="false" />
+    <Property Name="SupplementTypeID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MsSupplementTypes">
+    <Key>
+      <PropertyRef Name="SupplementTypeID" />
+    </Key>
+    <Property Name="SupplementTypeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SupplementTypeName" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MsUsers">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="UserEmail" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="UserDOB" Type="date" Nullable="false" />
+    <Property Name="UserGender" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="UserRole" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="UserPassword" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TransactionDetails">
+    <Key>
+      <PropertyRef Name="TransactionID" />
+      <PropertyRef Name="SupplementID" />
+    </Key>
+    <Property Name="TransactionID" Type="int" Nullable="false" />
+    <Property Name="SupplementID" Type="int" Nullable="false" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TransactionHeaders">
+    <Key>
+      <PropertyRef Name="TransactionID" />
+    </Key>
+    <Property Name="TransactionID" Type="int" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="TransactionDate" Type="date" Nullable="false" />
+    <Property Name="Status" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_MsCarts_MsSupplements">
+    <End Role="MsSupplements" Type="Self.MsSupplements" Multiplicity="1" />
+    <End Role="MsCarts" Type="Self.MsCarts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MsSupplements">
+        <PropertyRef Name="SupplementID" />
+      </Principal>
+      <Dependent Role="MsCarts">
+        <PropertyRef Name="SupplementID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MsCarts_MsUsers">
+    <End Role="MsUsers" Type="Self.MsUsers" Multiplicity="1" />
+    <End Role="MsCarts" Type="Self.MsCarts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MsUsers">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="MsCarts">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MsSupplement_MsSupplementTypes">
+    <End Role="MsSupplementTypes" Type="Self.MsSupplementTypes" Multiplicity="1" />
+    <End Role="MsSupplements" Type="Self.MsSupplements" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MsSupplementTypes">
+        <PropertyRef Name="SupplementTypeID" />
+      </Principal>
+      <Dependent Role="MsSupplements">
+        <PropertyRef Name="SupplementTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TransactionDetails_MsSupplements">
+    <End Role="MsSupplements" Type="Self.MsSupplements" Multiplicity="1" />
+    <End Role="TransactionDetails" Type="Self.TransactionDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MsSupplements">
+        <PropertyRef Name="SupplementID" />
+      </Principal>
+      <Dependent Role="TransactionDetails">
+        <PropertyRef Name="SupplementID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TransactionDetails_TransactionHeaders">
+    <End Role="TransactionHeaders" Type="Self.TransactionHeaders" Multiplicity="1" />
+    <End Role="TransactionDetails" Type="Self.TransactionDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TransactionHeaders">
+        <PropertyRef Name="TransactionID" />
+      </Principal>
+      <Dependent Role="TransactionDetails">
+        <PropertyRef Name="TransactionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TransactionHeaders_MsUsers">
+    <End Role="MsUsers" Type="Self.MsUsers" Multiplicity="1" />
+    <End Role="TransactionHeaders" Type="Self.TransactionHeaders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MsUsers">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TransactionHeaders">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Database1ModelStoreContainer">
+    <EntitySet Name="MsCarts" EntityType="Self.MsCarts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MsSupplements" EntityType="Self.MsSupplements" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MsSupplementTypes" EntityType="Self.MsSupplementTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MsUsers" EntityType="Self.MsUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TransactionDetails" EntityType="Self.TransactionDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TransactionHeaders" EntityType="Self.TransactionHeaders" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_MsCarts_MsSupplements" Association="Self.FK_MsCarts_MsSupplements">
+      <End Role="MsSupplements" EntitySet="MsSupplements" />
+      <End Role="MsCarts" EntitySet="MsCarts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MsCarts_MsUsers" Association="Self.FK_MsCarts_MsUsers">
+      <End Role="MsUsers" EntitySet="MsUsers" />
+      <End Role="MsCarts" EntitySet="MsCarts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MsSupplement_MsSupplementTypes" Association="Self.FK_MsSupplement_MsSupplementTypes">
+      <End Role="MsSupplementTypes" EntitySet="MsSupplementTypes" />
+      <End Role="MsSupplements" EntitySet="MsSupplements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TransactionDetails_MsSupplements" Association="Self.FK_TransactionDetails_MsSupplements">
+      <End Role="MsSupplements" EntitySet="MsSupplements" />
+      <End Role="TransactionDetails" EntitySet="TransactionDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TransactionDetails_TransactionHeaders" Association="Self.FK_TransactionDetails_TransactionHeaders">
+      <End Role="TransactionHeaders" EntitySet="TransactionHeaders" />
+      <End Role="TransactionDetails" EntitySet="TransactionDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TransactionHeaders_MsUsers" Association="Self.FK_TransactionHeaders_MsUsers">
+      <End Role="MsUsers" EntitySet="MsUsers" />
+      <End Role="TransactionHeaders" EntitySet="TransactionHeaders" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
